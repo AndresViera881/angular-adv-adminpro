@@ -1,0 +1,35 @@
+ <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+      <app-header></app-header>
+      <app-sidebar></app-sidebar>
+       <!-- Page wrapper  -->
+      <!-- ============================================================== -->
+      <div class="page-wrapper">
+        <div class="container-fluid">
+              <!--BREADCRUMBS-->
+              <app-breadcrumbs></app-breadcrumbs>
+
+              <!--MI SISTEMA DE RUTAS-->
+              <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                           <router-outlet></router-outlet>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- footer -->
+          <!-- ============================================================== -->
+          <footer class="footer">
+            © 2021 Admin Pro by Andres Viera Full Stack Developer
+        </footer>
+        <!-- ============================================================== -->
+        <!-- End footer -->
+      </div>
+  </div>
+
