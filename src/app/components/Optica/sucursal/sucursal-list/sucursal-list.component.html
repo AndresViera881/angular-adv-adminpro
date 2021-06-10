@@ -1,0 +1,17 @@
+
+
+<table class="table table-responsive table-bordered">
+<thead>
+  <th>Nombre</th>
+  <th>Descripcion</th>
+  <th>Estado</th>
+</thead>
+
+<tbody *ngFor="let item of mostrarTablaSucursal">
+  <tr>
+    <td>{{item.nombre}}</td>
+    <td>{{item.descripcion}}</td>
+    <td>{{item.estado}}</td>
+  </tr>
+</tbody>
+</table>
